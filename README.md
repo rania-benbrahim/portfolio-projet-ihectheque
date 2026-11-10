@@ -2,98 +2,79 @@
   <img src="images/logo.png" width="140" alt="IHECTHEQUE Logo">
 </p>
 
-<h1 align="center">📚 IHECTHEQUE – Application de Gestion de Bibliothèque</h1>
+<h1 align="center">IHECTHEQUE – Application de gestion de bibliothèque</h1>
 
 <p align="center">
-  <b>Projet universitaire • C# • .NET • Gestion documentaire</b>
+  <b>Projet universitaire en équipe • C# .NET • SQL Server • Figma</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-purple" alt="C#">
+  <img src="https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white" alt="C#">
   <img src="https://img.shields.io/badge/.NET-512BD4" alt=".NET">
-  <img src="https://img.shields.io/badge/Visual%20Studio-blue" alt="Visual Studio">
-  <img src="https://img.shields.io/badge/Desktop%20App-0ea5e9" alt="Desktop App">
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" alt="Figma">
 </p>
 
 ---
 
-## 🟥  Présentation du projet
-IHECTHEQUE est une application développée dans le cadre d’un projet universitaire.  
-Elle permet de gérer une bibliothèque universitaire en digitalisant
-les livres, les utilisateurs et les emprunts.
+## Présentation du projet
+IHECTHEQUE est une application de bureau de gestion de bibliothèque conçue pour l'IHEC Carthage. Elle permet aux étudiants, aux bibliothécaires et aux administrateurs de consulter, gérer et suivre les emprunts de livres.
 
-L’application propose des interfaces adaptées aux différents profils :
-étudiant, bibliothécaire et administrateur.
+Projet réalisé en 2025 par une équipe de quatre étudiantes (équipe **Sharp#Sisters**). Chaque membre a participé à toutes les étapes : maquettes, base de données et développement.
 
 ---
 
-## 🟥  Objectifs du projet
--  Faciliter l’accès aux ressources documentaires  
--  Optimiser la gestion des emprunts et des retours  
--  Centraliser les informations  
--  Améliorer l’expérience utilisateur  
--  Digitaliser les services de la bibliothèque  
+## Démarche
+1. **Maquettes sur Figma** : conception de l'interface pour chaque profil (étudiant, bibliothécaire, administrateur).
+2. **Base de données SQL Server** : tables principales (Livres, Utilisateurs, Emprunts) et import des données initiales depuis un fichier Excel.
+3. **Développement en C# .NET** : application connectée à la base SQL Server.
 
 ---
 
-## 🟥 Fonctionnalités principales
--  Authentification des utilisateurs  
--  Gestion des livres  
--  Suivi des emprunts  
--  Interface étudiant  
--  Interface bibliothécaire  
--  Interface administrateur  
--  Statistiques et rapports  
--  Système de notifications  
+## Fonctionnalités
+- Authentification et gestion des rôles (étudiant, bibliothécaire, administrateur)
+- Consultation et recherche des livres disponibles
+- Gestion des emprunts et des retours
+- Gestion de l'inventaire des livres (ajout, modification, suppression)
+- Gestion des utilisateurs
+- Affichage dynamique des données depuis la base
 
 ---
 
-## 🟥 Aperçu de l’interface
+## Aperçu de l'interface
 
-### Authentification & Accueil
-
+### Authentification et accueil
 <p align="center">
-  <img src="images/login.png" width="200" alt="Login">
-  <img src="images/acceuil.png" width="200" alt="Accueil">
+  <img src="images/login.png" width="300" alt="Connexion">
+  <img src="images/acceuil.png" width="300" alt="Accueil">
 </p>
 
-### Espaces Utilisateurs
-
+### Espaces utilisateurs
 <p align="center">
-  <img src="images/espace%20admin.png" width="200" alt="Admin">
-  <img src="images/espace%20bibliothecaire.png" width="200" alt="Bibliothécaire">
-  <img src="images/espace%20d%20etudiant.png" width="200" alt="Étudiant">
+  <img src="images/espace%20admin.png" width="260" alt="Espace administrateur">
+  <img src="images/espace%20bibliothecaire.png" width="260" alt="Espace bibliothécaire">
+  <img src="images/espace%20d%20etudiant.png" width="260" alt="Espace étudiant">
 </p>
 
-### Gestion des Livres
-
+### Livres disponibles
 <p align="center">
-  <img src="images/livres%20disponibles.png" width="220" alt="Livres">
+  <img src="images/livres%20disponibles.png" width="400" alt="Livres disponibles">
 </p>
 
 ---
 
-## 🟥 Technologies utilisées
--  C#  
--  .NET  
--  Visual Studio  
--  Base de données (SQL Server / MySQL)  
+## Technologies utilisées
+- C# / .NET (Visual Studio)
+- SQL Server
+- Figma (maquettes)
 
 ---
 
-## 🟥 Documentation
--  Rapport du projet  
--  Présentation académique  
-
----
-
-## 🟥 Exécution du projet
-Le projet est exécutable via Visual Studio  
-en ouvrant le fichier de solution `.sln`.
+## Documentation
+- `Présentation Projet IHECTHEQUE.pdf` : présentation du projet (maquettes, base de données, développement)
 
 ---
 
 <p align="center">
-  <i>📁 Dépôt destiné à la présentation du projet dans un cadre académique (portfolio).</i>
+  <i>Dépôt destiné à la présentation du projet dans un cadre académique (portfolio).</i>
 </p>
-
