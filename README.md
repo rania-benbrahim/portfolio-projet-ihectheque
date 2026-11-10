@@ -5,7 +5,7 @@
 <h1 align="center">IHECTHEQUE – Application de gestion de bibliothèque</h1>
 
 <p align="center">
-  <b>Projet universitaire en équipe • C# .NET • SQL Server • Figma</b>
+  <b>Projet universitaire en équipe • C# .NET (Windows Forms) • SQL Server • Figma</b>
 </p>
 
 <p align="center">
@@ -32,12 +32,13 @@ Projet réalisé en 2025 par une équipe de quatre étudiantes (équipe **Sharp#
 ---
 
 ## Fonctionnalités
-- Authentification et gestion des rôles (étudiant, bibliothécaire, administrateur)
-- Consultation et recherche des livres disponibles
-- Gestion des emprunts et des retours
-- Gestion de l'inventaire des livres (ajout, modification, suppression)
-- Gestion des utilisateurs
-- Affichage dynamique des données depuis la base
+L'application propose trois espaces, selon le rôle de l'utilisateur à la connexion :
+
+- **Étudiant** : consultation et recherche des livres disponibles, suivi de ses emprunts, liste de favoris et statistiques personnelles de lecture
+- **Bibliothécaire** : gestion des livres (ajout, modification, suppression), gestion des emprunts et des retours, gestion des utilisateurs et tableau de bord
+- **Administrateur** : gestion des utilisateurs, des livres et des événements, tableau de bord global et paramètres
+
+Toutes les données sont lues et enregistrées dans la base SQL Server, avec des requêtes paramétrées.
 
 ---
 
@@ -64,14 +65,26 @@ Projet réalisé en 2025 par une équipe de quatre étudiantes (équipe **Sharp#
 ---
 
 ## Technologies utilisées
-- C# / .NET (Visual Studio)
+- C# / .NET Framework 4.7.2 – Windows Forms (Visual Studio)
 - SQL Server
 - Figma (maquettes)
 
 ---
 
-## Documentation
+## Structure du projet
+- `IHECTHEQUE.sln` : solution Visual Studio
+- `IHECTHEQUE/` : code source C# (Windows Forms : formulaires `Form*` et contrôles utilisateur `UC*` pour chaque espace)
+- `IHECTHEQUE/Resources/` : images et icônes de l'interface
 - `Présentation Projet IHECTHEQUE.pdf` : présentation du projet (maquettes, base de données, développement)
+
+---
+
+## Lancer le projet
+Prérequis : Windows, Visual Studio, .NET Framework 4.7.2 et SQL Server Express avec une base `GestionBibliotheque`.
+
+1. Ouvrir `IHECTHEQUE.sln` dans Visual Studio.
+2. Vérifier la chaîne de connexion dans `Database.cs` et `DB.cs` (par défaut : `.\SQLEXPRESS`).
+3. Lancer le projet avec **F5**.
 
 ---
 
